@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+
+}
+* {box-sizing: border-box;
+}
+.container {
+    width: 980px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    font-size: 1.3rem;
+    color: blue;
+ 
+}
+nav ul li a {
+    text-decoration: none;
+    
+}
+.active {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+main {
+    max-width: 850px;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 1rem;
+    padding: 25px;
+    margin: 20px;
+}
+.btn {
+    background-color: rgb(138, 221, 13);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+section {
+    margin: 20px;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 1 0 0;
+}
+footer {
+    margin: 20px;
+
+}
+
+
